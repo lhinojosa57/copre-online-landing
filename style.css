@@ -39,6 +39,22 @@ h1, h2, h3 {
 
 .btn-whatsapp:hover { background: #a31f23; }
 
+.btn-outline {
+  display: inline-block;
+  background: transparent;
+  color: #146693;
+  border: 2px solid #146693;
+  font-family: var(--font-heading);
+  text-decoration: none;
+  padding: 12px 26px;
+  border-radius: 6px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.btn-outline:hover { background: #146693; color: var(--blanco); }
+
 header.hero { text-align: center; }
 header.hero .banner { width: 100%; height: auto; display: block; }
 header.hero .cta-wrap { background: var(--gris-metalico); padding: 32px 20px; }
